@@ -1,0 +1,731 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1467076600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have launched the application",
+            "match": {
+              "location": "stepdefs.LoginStepdef.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 283283500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter the correct  username as \"standard_user\" and password as \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 65
+                }
+              ],
+              "location": "stepdefs.LoginStepdef.i_enter_the_correct_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 273160400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the Login Button",
+            "match": {
+              "location": "stepdefs.LoginStepdef.i_click_on_the_Login_Button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-17T10:43:13.837Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1680723200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.HooksClass.Setup()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Add product to Cart",
+        "description": "",
+        "id": "home-feature-scenario;add-product-to-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 119630200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.HooksClass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 170730900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click add to cart for Product as \"Sauce Labs Bolt T-Shirt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sauce Labs Bolt T-Shirt\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepdefs.HomeStepdef.i_click_add_to_cart_for_Product_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 86097700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Cart item count should be 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefs.HomeStepdef.cart_item_count_should_be(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 847330300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have launched the application",
+            "match": {
+              "location": "stepdefs.LoginStepdef.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 214478900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter the correct  username as \"standard_user\" and password as \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 65
+                }
+              ],
+              "location": "stepdefs.LoginStepdef.i_enter_the_correct_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 115974200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the Login Button",
+            "match": {
+              "location": "stepdefs.LoginStepdef.i_click_on_the_Login_Button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-17T10:43:18.009Z",
+        "before": [
+          {
+            "result": {
+              "duration": 785563400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.HooksClass.Setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "To Add more than one product",
+        "description": "",
+        "id": "home-feature-scenario;to-add-more-than-one-product",
+        "after": [
+          {
+            "result": {
+              "duration": 96446500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.HooksClass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 336953300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I add below Products",
+            "match": {
+              "location": "stepdefs.HomeStepdef.i_add_below_Products(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Sauce Labs Bolt T-Shirt"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Fleece Jacket"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Onesie"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60836400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Cart item count should be 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefs.HomeStepdef.cart_item_count_should_be(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Home Feature Scenario",
+    "description": "",
+    "id": "home-feature-scenario",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/home.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 802152400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have launched the application",
+            "match": {
+              "location": "stepdefs.LoginStepdef.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-17T10:43:20.480Z",
+        "before": [
+          {
+            "result": {
+              "duration": 837714700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.HooksClass.Setup()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Positive Login to define Happy Path",
+        "description": "",
+        "id": "login-feature-scenario;positive-login-to-define-happy-path",
+        "after": [
+          {
+            "result": {
+              "duration": 94748800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.HooksClass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 186826800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter the correct  username as \"standard_user\" and password as \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 65
+                }
+              ],
+              "location": "stepdefs.LoginStepdef.i_enter_the_correct_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 245451600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on the Login Button",
+            "match": {
+              "location": "stepdefs.LoginStepdef.i_click_on_the_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should land on the home page",
+            "match": {
+              "location": "stepdefs.LoginStepdef.i_should_land_on_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 855249200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have launched the application",
+            "match": {
+              "location": "stepdefs.LoginStepdef.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-17T10:43:22.669Z",
+        "before": [
+          {
+            "result": {
+              "duration": 854368400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.HooksClass.Setup()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Negative Login to define failure path",
+        "description": "",
+        "id": "login-feature-scenario;negative-login-to-define-failure-path;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 86767600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.HooksClass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 268029500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter the username as \"locked_out_user\" and password as \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"locked_out_user\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 58
+                }
+              ],
+              "location": "stepdefs.LoginStepdef.i_enter_the_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 117380700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on the Login Button",
+            "match": {
+              "location": "stepdefs.LoginStepdef.i_click_on_the_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61832900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should get the error message  as \"Epic sadface: Sorry, this user has been locked out.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Sorry, this user has been locked out.\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepdefs.LoginStepdef.i_should_get_the_error_message_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 946460700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have launched the application",
+            "match": {
+              "location": "stepdefs.LoginStepdef.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-17T10:43:24.927Z",
+        "before": [
+          {
+            "result": {
+              "duration": 974687100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.HooksClass.Setup()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Negative Login to define failure path",
+        "description": "",
+        "id": "login-feature-scenario;negative-login-to-define-failure-path;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 58847900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.HooksClass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 202532900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter the username as \"problem_user\" and password as \"secret_sauce1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"problem_user\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"secret_sauce1\"",
+                  "offset": 55
+                }
+              ],
+              "location": "stepdefs.LoginStepdef.i_enter_the_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 78489300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on the Login Button",
+            "match": {
+              "location": "stepdefs.LoginStepdef.i_click_on_the_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35723300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should get the error message  as \"Epic sadface: Username and password do not match any user in this service\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Username and password do not match any user in this service\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepdefs.LoginStepdef.i_should_get_the_error_message_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 992520200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have launched the application",
+            "match": {
+              "location": "stepdefs.LoginStepdef.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-17T10:43:27.229Z",
+        "before": [
+          {
+            "result": {
+              "duration": 770632200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.HooksClass.Setup()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Negative Login to define failure path",
+        "description": "",
+        "id": "login-feature-scenario;negative-login-to-define-failure-path;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 59567100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.HooksClass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 247726800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter the username as \"performance_glitch_user\" and password as \"secret_sauce1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"performance_glitch_user\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"secret_sauce1\"",
+                  "offset": 66
+                }
+              ],
+              "location": "stepdefs.LoginStepdef.i_enter_the_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 64729400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on the Login Button",
+            "match": {
+              "location": "stepdefs.LoginStepdef.i_click_on_the_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35178900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should get the error message  as \"Epic sadface: Username and password do not match any user in this service\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Username and password do not match any user in this service\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepdefs.LoginStepdef.i_should_get_the_error_message_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature Scenario",
+    "description": "",
+    "id": "login-feature-scenario",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/login.feature",
+    "tags": []
+  }
+]
